@@ -1,0 +1,8 @@
+return ProvenWithdrawalParameters{
+		Nonce:         ev.Nonce,
+		Sender:        ev.Sender,
+		Target:        ev.Target,
+		Value:         ev.Value,
+		GasLimit:      ev.GasLimit,
+		L2OutputIndex: l2OutputIndex,
+		Data:          ev.Data,
