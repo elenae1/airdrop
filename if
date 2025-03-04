@@ -1,0 +1,3 @@
+func ParseMessagesPassed(receipt *types.Receipt) ([]*bindings.L2ToL1MessagePasserMessagePassed, error) {
+	contract, err := bindings.NewL2ToL1MessagePasser(common.Address{}, nil)
+	if err != nil
