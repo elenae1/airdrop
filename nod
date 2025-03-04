@@ -1,3 +1,4 @@
 	WithdrawalProof: trieNodes,
 	}, nil
 }
+for _, log := range receipt.Logs {
