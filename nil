@@ -1,0 +1,3 @@
+latestGame := latestGames[0]
+	return &latestGame, nil
+}
