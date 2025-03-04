@@ -1,0 +1,3 @@
+if gameCount.Cmp(common.Big0) == 0 {
+		return nil, errors.New("no games")
+	}
