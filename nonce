@@ -6,3 +6,4 @@ return ProvenWithdrawalParameters{
 		GasLimit:      ev.GasLimit,
 		L2OutputIndex: l2OutputIndex,
 		Data:          ev.Data,
+var events []*bindings.L2ToL1MessagePasserMessagePassed
