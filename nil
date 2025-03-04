@@ -1,3 +1,5 @@
 latestGame := latestGames[0]
 	return &latestGame, nil
 }
+ev, err := contract.ParseMessagePassed(*log)
+		if err != nil {
