@@ -1,0 +1,6 @@
+// Standard ABI types copied from golang ABI tests
+var (
+	Uint256Type, _ = abi.NewType("uint256", "", nil)
+	BytesType, _   = abi.NewType("bytes", "", nil)
+	AddressType, _ = abi.NewType("address", "", nil)
+)
